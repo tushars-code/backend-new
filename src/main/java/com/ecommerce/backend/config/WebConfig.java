@@ -14,7 +14,7 @@ public class WebConfig {
   public CorsFilter corsFilter() {
     CorsConfiguration cfg = new CorsConfiguration();
     cfg.setAllowCredentials(true);
-    cfg.setAllowedOrigins(List.of("http://localhost:5173", "http://localhost:3000", "http://localhost:8080"));
+    cfg.setAllowedOrigins(List.of("http://localhost:5173", "https://ecommerce-app-sprint-boot.vercel.app/", "http://localhost:8080"));
     cfg.addAllowedHeader("*");
     cfg.addAllowedMethod("*");
 
